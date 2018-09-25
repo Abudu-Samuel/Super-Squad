@@ -8,7 +8,7 @@ import { addCharacterById } from './actions/index'
 
 const store = createStore(rootReducer);
 console.log("store.getState", store.getState());
-store.subscribe(() => console.log("updated State", store.getState()));
+store.subscribe(() => console.log("store", store.getState()));
 store.dispatch(addCharacterById(2));
 
 ReactDOM.render(
