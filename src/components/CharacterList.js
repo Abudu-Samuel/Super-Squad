@@ -4,9 +4,7 @@ import { bindActionCreators } from 'redux';
 import  { addCharacterById } from '../actions/index';
 
 class CharacterList extends Component {
-
   render() {
-    console.log("**********", this.props)
     return(
       <div>
         <h4>Characters</h4>
